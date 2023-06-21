@@ -215,12 +215,12 @@ section {
 
   h1 {
     font-size: var(--main-desktop-h1-font-size);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s cubic-bezier(0.42, 0, 1, 0.21);
   }
 
   h2 {
     font-size: var(--main-desktop-h2-font-size);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s cubic-bezier(0.42, 0, 1, 0.21);
   }
 
   p {
